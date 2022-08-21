@@ -2,7 +2,8 @@ body{
     display: flex;
     flex-direction: column;
     margin: 0;
-    background-color: #1F2937;
+    background-color: #234e4c;
+    width: 100v;
 }
 ul{
     list-style: none;
@@ -27,13 +28,14 @@ a{
 .header{
     display: flex;
     justify-content: space-between;
-    padding: 20px;
-    padding-left:64px;
-    background-color: #1F2937;
+    padding-left:210px;
+    padding-right: 150px;
+    background-color: #234e4c;
  
 }
 .header-logo{
     font-size: 24px;
+    font-weight: 900;
     color:#F9FAF8;
     display: flex;
     justify-content: center;
@@ -43,13 +45,14 @@ a{
 .part-one{
     display: flex;
     justify-content: space-between;
-    padding-left: 64px;
+    padding-left:210px;
+    padding-right: 150px;
     padding-top: 64px;
-    padding-right: 20px;
+    gap:40px
 }
 .random-info{
     font-size: 36px;
-    text-align: center;
+
 }
 .title{
     font-size: 48px;
@@ -65,14 +68,20 @@ a{
     display: flex;
     flex-direction: column;
     background-color: white;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
     width: 100%;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    width:100%;
+    
 }
 .images-container{
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
-    padding-left: 64px;
+    gap:50px;
     padding-right:20px;
 }
 .first-image{
@@ -80,27 +89,46 @@ a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border: #91c49f;
+    border-width: 7px;
+    border-style: solid;
+    border-radius: 10px;
 }
 .second-image{
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border: #91c49f;
+    border-width: 7px;
+    border-style: solid;
+    border-radius: 10px;
 }
 .third-image{
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border: #91c49f;
+    border-width: 7px;
+    border-style: solid;
+    border-radius: 10px;
 }
 .fourth-image{
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border: #91c49f;
+    border-width: 7px;
+    border-style: solid;
+    border-radius: 10px;
 }
 .part-three{
-    background-color: #E5E7EB;
+    background-color: #caf5b1;
+    padding-top: 50px;
+    padding-left:210px;
+    padding-right: 150px;
 }
 .quote{
     font-size: 36px;
@@ -112,13 +140,15 @@ a{
     justify-content: end;
 }
 .part-four{
-    
+    padding-top: 50px;
     background-color: white;
+    padding-left:210px;
+    padding-right: 150px;
 }
 .card-holder{
     display: flex;
     justify-content: space-between;
-    background-color: #3882F6;
+    background-color: #84886b;
     height: 150px;
     width: 50%;
     margin: 50px;
@@ -129,7 +159,7 @@ a{
     flex-direction: column;
     justify-content: center;
     padding-left: 45px;
-    color: white;
+    color: black;
     
 }
 .button-container{
