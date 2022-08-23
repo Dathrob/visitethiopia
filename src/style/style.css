@@ -48,10 +48,22 @@ a{
     padding-left:210px;
     padding-right: 150px;
     padding-top: 64px;
-    gap:40px
+    padding-bottom: 40px;
+    gap:40px;
+    color:white;
+}
+.passage{
+    font-size: 18px;
+}
+.signup-first{
+    height: 40px;
+    margin-top: 20px;
+    width:100px;
+    border-radius: 10px;
 }
 .random-info{
     font-size: 36px;
+    font-weight: 600;
 
 }
 .title{
@@ -89,38 +101,43 @@ a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: #91c49f;
-    border-width: 7px;
-    border-style: solid;
-    border-radius: 10px;
+    
+    width: 250px;
+}
+.paragraph{
+    padding: 10px;
+    text-align: center;
 }
 .second-image{
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: #91c49f;
-    border-width: 7px;
-    border-style: solid;
-    border-radius: 10px;
+   
+    width: 250px;
+    
 }
 .third-image{
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: #91c49f;
-    border-width: 7px;
-    border-style: solid;
-    border-radius: 10px;
+    
+    width: 250px;
+    
 }
 .fourth-image{
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
+    width: 250px;
+    
+}
+.four-images{
     border: #91c49f;
-    border-width: 7px;
+    border-width: 5px;
     border-style: solid;
     border-radius: 10px;
 }
@@ -129,6 +146,7 @@ a{
     padding-top: 50px;
     padding-left:210px;
     padding-right: 150px;
+    padding-bottom: 50px;
 }
 .quote{
     font-size: 36px;
@@ -139,6 +157,10 @@ a{
     display: flex;
     justify-content: end;
 }
+.person{
+    font-size: x-large;
+    font-weight: 600;
+}
 .part-four{
     padding-top: 50px;
     background-color: white;
@@ -148,24 +170,35 @@ a{
 .card-holder{
     display: flex;
     justify-content: space-between;
-    background-color: #84886b;
+    background-color: #3a7471;
     height: 150px;
-    width: 50%;
+    width: 90%;
     margin: 50px;
-    margin-left: 25%;
+    border: solid;
+    border-color: #84886b;
+    border-radius: 10px;
+    
 }
 .info{
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding-left: 45px;
-    color: black;
+    color: white;
     
 }
+
 .button-container{
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
+    padding: 40px;
+}
+.second-button{
+    height: 40px;
+    margin-top: 20px;
+    width:100px;
+    border-radius: 10px;
 }
 .action{
     font-size: 36px;
@@ -174,7 +207,10 @@ a{
 .footer{
         display: flex;
         justify-content: center;
+        align-items: center;
         color: white;
-        height: 100px;
+        height: 80px;
+        font-weight: 500;
+        font-size: 24px;
        
 }
